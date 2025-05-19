@@ -1,2 +1,2 @@
 # WanderLust
-https://wanderlust-om4c.onrender.com/
+https://wanderlust-om4c.onrender.com/listings
