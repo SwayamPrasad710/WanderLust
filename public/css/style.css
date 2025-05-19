@@ -1,0 +1,152 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+
+.fa-compass {
+  color: #ff5a5f;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+footer {
+  background-color: #ebebeb;
+  padding: 20px 0;
+  text-align: center;
+  /* border-top: 1px solid #3a1d6e; Purple border at the top */
+}
+
+.f-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.f-info-socials i {
+  font-size: 24px;
+  color: #1c2b46; /* Dark blue for icons */
+  margin: 0 10px;
+}
+
+.f-info-brand {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1c2b46;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #1c2b46;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+/*? Cards Styling ?*/
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  transition: opacity 0.1s;
+}
+
+.card:hover .card-img-top {
+  filter: brightness(80%);
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text p {
+  font-weight: 400 !important;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay {
+  opacity: 0;
+}
+
+/* New-from */
+.add-btn {
+  border: none !important;
+  background-color: #ff5a5f !important;
+  color: white !important;
+  margin-top: 1.5rem;
+  padding: 8px 20px !important;
+}
+
+.add-btn:hover {
+  background-color: #e0484d !important;
+}
+
+.form-header {
+  margin-bottom: 0.8rem !important;
+  margin-top: 1.5rem !important;
+}
+
+/* Edit Form */
+.edit-btn {
+  border: none !important;
+  background-color: #ff5a5f !important;
+  color: white !important;
+  /* margin-top: 1.5rem; */
+  padding: 8px 20px !important;
+}
+
+.edit-btn:hover {
+  background-color: #e0484d !important;
+}
+
+/* Show Form */
+.show-image {
+  height: 30vh;
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.card-text b {
+  font-size: 1.2rem; /* Adjust as needed */
+}
+
+.btns {
+  display: flex;
+}
+
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#map {
+  height: 400px;
+  width: 80vh;
+  margin-bottom: 30px;
+}
